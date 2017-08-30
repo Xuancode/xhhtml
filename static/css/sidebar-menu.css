@@ -1,0 +1,199 @@
+body {
+    /*background-color: pink;*/
+}
+*{
+    list-style: none;
+}
+
+/*侧栏导航样式*/
+.sidebar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.sidebar-menu>li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.sidebar-menu>li>a {
+    padding: 12px 5px 12px 15px;
+    display: block;
+    border-left: 3px solid transparent;
+    color: #b8c7ce;
+    background-color: transparent;
+}
+
+.sidebar-menu>li>a>.fa {
+    width: 20px;
+    background-color: transparent;
+}
+
+.sidebar-menu>li:hover>a,
+.sidebar-menu>li.active>a {
+    color: #fff;
+    background: #1e282c;
+    border-left-color: #3c8dbc;
+    background-color: transparent;
+}
+
+.sidebar-menu>li>.treeview-menu {
+    margin: 0 1px;
+    background: #2c3b41;
+    background-color: transparent;
+}
+
+.sidebar-menu>li .label,
+.sidebar-menu>li .badge {
+    margin-top: 3px;
+    margin-right: 5px;
+    background-color: transparent;
+}
+
+.sidebar-menu li.header {
+    padding: 10px 25px 10px 15px;
+    font-size: 12px;
+    color: #4b646f;
+    background: #1a2226;
+    background-color: transparent;
+}
+
+.sidebar-menu li>a>.fa-angle-left {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-right: 10px;
+    margin-top: 3px;
+    background-color: transparent;
+}
+
+.sidebar-menu li.active>a>.fa-angle-left {
+    transform: rotate(-90deg);
+    background-color: transparent;
+}
+
+.sidebar-menu li.active>.treeview-menu {
+    display: block;
+    background-color: transparent;
+}
+
+.sidebar-menu a {
+    color: #b8c7ce;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.sidebar-menu .treeview-menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 5px;
+    background-color: transparent;
+}
+
+.sidebar-menu .treeview-menu .treeview-menu {
+    padding-left: 20px;
+    background-color: transparent;
+}
+
+.sidebar-menu .treeview-menu>li {
+    margin: 0;
+    background-color: transparent;
+}
+
+.sidebar-menu .treeview-menu>li>a {
+    padding: 5px 5px 5px 15px;
+    display: block;
+    font-size: 14px;
+    color: #8aa4af;
+    background-color: transparent;
+}
+
+.sidebar-menu .treeview-menu>li>a>.fa {
+    width: 20px;
+    background-color: transparent;
+}
+
+.sidebar-menu .treeview-menu>li>a>.fa-angle-left,
+.sidebar-menu .treeview-menu>li>a>.fa-angle-down {
+    width: auto;
+    background-color: transparent;
+}
+
+.sidebar-menu .treeview-menu>li.active>a,
+.sidebar-menu .treeview-menu>li>a:hover {
+    color: #fff;
+
+}
+
+
+
+/*其他样式*/
+#back-img{
+    position: relative;
+    width: 1920px;
+    height: 941px;
+    background-image: url(../img/command.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-div{
+    width: 90%;
+    height: 941px;
+    background-image: url(../img/02.png);
+    background-size:  contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    
+}
+
+.real-content{
+    width: 97.6%;    
+    height: 941px;
+    margin: 0 auto;
+    position: relative;
+    /*background-color: pink;*/
+}
+
+aside{
+    position: absolute;
+    top: 39px;
+    color: white;
+    background-image: url(../img/nav-img.png);
+    background-size:  cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 220px;
+    /*margin-left:22px;*/
+    overflow-y: scroll;
+    padding-left: 20px;
+}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
+::-webkit-scrollbar  
+{  
+    width: 0px;  
+    height: 0px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滚动条轨道 内阴影+圆角*/  
+::-webkit-scrollbar-track  
+{  
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0);  
+    border-radius: 10px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滑块 内阴影+圆角*/  
+::-webkit-scrollbar-thumb  
+{  
+    border-radius: 10px;  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+    background-color: #555;  
+}

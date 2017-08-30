@@ -1,0 +1,42 @@
+*{
+	list-style: none;
+}
+
+#odiv{
+	position: relative;
+	width: 1920px;
+	height: 941px;
+	background-image: url(../img/command.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.ndiv{
+	width: 90%;
+	height: 941px;
+	background-image: url(../img/02.png);
+	background-size:  contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	
+}
+.nav{
+	position: absolute;
+	top: 39px;
+	color: white;
+	background-image: url(../img/nav-img.png);
+	background-size:  cover;
+	background-repeat: no-repeat;
+	height: 800px;
+	width: 220px;
+	margin-left:22px;
+}
+.nav li{
+	margin-top: 15px;
+}
+.shouye{
+	position: absolute;
+	color: white;
+	bottom: 4%;
+	left: 49%;
+}
+
